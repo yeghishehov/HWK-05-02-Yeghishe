@@ -1,0 +1,64 @@
+html {
+  background: url(http://www.mubis.es/media/users/9692/139794/mi-teoria-sobre-star-wars-episodio-vii-spoilers-spoilers-spoilers-spoilers-spoilers-original.jpg)
+  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.login {
+  padding: 15px;
+  width: 400px;
+  min-height: 400px;
+  margin: 250px auto 0 auto;  
+}
+
+h2 {
+  font-size: 2em;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  color: #ffffff9a
+}
+
+.username,
+.password {
+  margin-top: 10px;
+  border: none;
+  font-size: 1.6em;
+  font-weight: 300;
+  padding: 5px 0;
+  width: 100%;
+  border-radius: 3px;
+  display: inline-block;
+  background: #ffffff90;
+}
+
+button {
+  margin-top: 20px;
+  color: #03030398;
+  border: none;
+  font-size: 1.6em;
+  font-weight: 300;
+  padding: 5px 0;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  border-radius: 3px;
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  background: #ffffff90;
+}
+
+button:hover,
+button:focus,
+button:active {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
